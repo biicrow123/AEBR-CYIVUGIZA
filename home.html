@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <li><img src="aebr-logo.webp" height="150" width="302"></img></li>
+        <div class="logo"><h1><marquee alternate="behavior"> WELCOME TO AEBR CIVUGIZA</h1></marquee>
+        <nav>
+            
+                <ul class="menu">
+				<li><a href="home.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+        
+            <main>
+                <section id="welcome">
+                    <h2>Welcome!</h2>
+                    <p>Join us as we grow in faith and fellowship together.</p>
+                    &times;
+                    <style>
+                        .cross-paragraph::before {
+                          content: "\00D7"; /* Unicode for multiplication sign (×) */
+                          margin-right: 8px; /* Space between cross and text */
+                          color: red; /* Optional: make the cross symbol red */
+                        }
+                      </style>
+                </section>
+        
+                <section id="gallery">
+                    <h2>Welcome Gallery</h2>
+                    <div class="gallery">
+                        <img src="plan of church.jpg" alt="Church Service" />
+                        <img src="kurwanya imirire mibi.jpg" alt="Community Event" />
+                        <img src="help 5.jpg" alt="Youth Group" />
+                        <img src="concert 2.jpg" alt="Family Gathering" />
+                        <img src="event 5.jpg" alt="leadership of AEBR CYIVUGIZA"/>
+                        <img src="pastor 6.jpg" alt="pastor of AEBR CYIVUGIZA"/>
+                        <img src="meeting 3.jpg" alt="the meeting of commintment"/>
+                        <img src="construction 5.jpg" alt="our construction"/>
+                        <img src="construction 4.jpg" alt="our construction"/>
+                        <img src="event 3.jpg" alt="fight against hunger"/>
+                        <img src="award  2.jpg" alt="we are the winner">
+                        <img src="pastor 1.jpg" alt="assistance between gornment and church"/>
+                        <img src="construction 3.jpg" alt="commitment of aebr cyivugiza">
+                        <img src="meeting 1.jpg"alt="leadership of aebr cyivugiza">
+                        
+                    </div>
+                </section>
+                <section id="schedule">
+                    <h2>weekly schedule</h2>
+                    <p>the weekly schedule of the statistics officer in the church</p>
+                    <form>
+                        <table border="2">
+                            <th>DAYS OF WORK</th>
+                            <th>TIME</th>
+                            <th>WORK</th>
+                            <tr>
+                                <ol>
+                                <td>Monday</td>
+                                <td><li>7:00 AM & 12:00 PM</li>
+                                <li>12:00 AM & 14:00 PM</li>
+                                <li>14:00 AM & 17:00 PM</li></td>
+                                <td><li>Receive people</li>
+                               <li> Break<br></li>
+                                <li>Receive people</li></td>
+                            </tr>
+                              
+                            <tr>
+                                <td>Wednesday</td>
+                                <td><li>7:00 AM & 12:00 PM</li>
+                                    <li>12:00 AM & 14:00 PM</li>
+                                    <li>14:00 AM & 17:00 PM</li></td>
+                                    <td><li>Receive people</li>
+                                   <li> Break<br></li>
+                                    <li>Receive people</li></td>
+                            </tr>
+                            
+                            <tr>
+                                <td>Friday</td>
+                                <td><li>7:00 AM & 12:00 PM</li>
+                                    <li>12:00 AM & 14:00 PM</li>
+                                    <li>14:00 AM & 17:00 PM</li></td>
+                                    <td><li>Receive people</li>
+                                   <li> Break<br></li>
+                                    <li>Receive people</li></td>
+                            </tr>
+                            <tr>
+                                <td>Sunday</td>
+                                <td><li>7:00 AM & 10:00 PM</li> </td>
+                                <td><li>Receive people</li></td>
+                            </ol>
+                            </tr>
+                        </table>
+                    </form>
+
+                </section>
+        
+                <section id="services">
+                    <h2>Service Times</h2>
+                    <p>Click here to see a service time:</p>
+                    <select>
+                        <option value="sunday">first service: 7:00 AM & 9:30</option>
+                        <option value="sunday">Wednesday Bible Study: 9:30 & 12:30 PM</option>
+                        <option value="saturday">morning worship: 5:30 & 7:00</option>
+                        <option value="saturday">praise worship: 9:00 & 14:00</option>
+                    </select>
+                </section>
+        
+                <section id="events">
+                    <h2>Upcoming Events</h2>
+                    <ul>
+                        <li>Christmas: December 25th at 1:00 PM</li>
+                        <li>celebrate new year: January 1st at 10:00 AM</li>
+                        <li>Christmas Caroling: December 15th at 6:00 PM</li>
+                    </ul>
+                </section>
+        
+    <footer>
+        <img src="aebr-logo.webp" height="150" width="200">
+        <p> &copy; 2024 AEBR CYIVUGIZA
+            <form action="log in.php" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+    
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+    
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+    
+                <button type="submit">Submit</button>
+        </form>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>
